@@ -7,7 +7,7 @@ class Produit{
      private float $qteStock;
      private static int $nbreProduit=0;
     
-    //ManyToOne
+    //Relation ManyToOne
     private Categorie $categorie;
      public function __construct(int|null $id=null,string|null $libelle=null,float|null $prix=null,float|null $qteStock=null)
     {
